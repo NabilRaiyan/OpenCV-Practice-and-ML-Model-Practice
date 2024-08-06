@@ -1,3 +1,6 @@
+# until 52 min
+
+
 import cv2 as cv
 import numpy as np
 
@@ -34,5 +37,8 @@ def rotate(img, angel, rotPoint=None):
 
 rotatedImg = rotate(img, 45)
 cv.imshow('Rotated Image', rotatedImg)
+
+
+
 
 cv.waitKey(0)
