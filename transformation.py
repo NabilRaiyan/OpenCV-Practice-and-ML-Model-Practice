@@ -1,4 +1,3 @@
-# until 52 min
 
 
 import cv2 as cv
@@ -47,7 +46,7 @@ flip = cv.flip(img, 1)
 cv.imshow("Flipped image", flip)
 
 # Cropped 
-cropped = img[200:400, 300:400]
+cropped = img[50:200, 200:400]
 cv.imshow("Cropped image", cropped)
 
 
